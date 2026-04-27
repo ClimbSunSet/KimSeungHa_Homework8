@@ -18,7 +18,7 @@ class HOMEWORK8_API AMyPlayerController : public APlayerController
 	GENERATED_BODY()
 	
 public:
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintNativeEvent)
 	void ShowGameOver();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, category = "Widget")

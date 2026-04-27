@@ -30,7 +30,7 @@ void AMyPlayerController::BeginPlay()
 	}
 }
 
-void AMyPlayerController::ShowGameOver()
+void AMyPlayerController::ShowGameOver_Implementation()
 {
 	UUserWidget* GameOverWidget = CreateWidget<UUserWidget>(this, GameOverWidgetClass);
 	GameOverWidget->AddToViewport();

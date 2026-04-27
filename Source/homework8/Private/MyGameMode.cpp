@@ -14,6 +14,7 @@ AMyGameMode::AMyGameMode()
 
 	CurrentWave = 0;
 	TakenItemCount = 0;
+	WaveMissionItemCount = 0;
 
 	WaveDatas.SetNum(3);
 	WaveDatas[0].WaveClearItemValue = 3;
@@ -21,8 +22,8 @@ AMyGameMode::AMyGameMode()
 	WaveDatas[2].WaveClearItemValue = 5;
 
 	WaveDatas[0].WaveTimer = 240.0f;
-	WaveDatas[1].WaveTimer = 240.0f;
-	WaveDatas[2].WaveTimer = 240.0f;
+	WaveDatas[1].WaveTimer = 230.0f;
+	WaveDatas[2].WaveTimer = 220.0f;
 }
 
 void AMyGameMode::Tick(float DeltaTime)

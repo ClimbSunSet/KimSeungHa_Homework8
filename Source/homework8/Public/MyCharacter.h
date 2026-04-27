@@ -25,6 +25,15 @@ protected:
 public:	
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Spawn")
+	AActor* SpawnPoint1;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Spawn")
+	AActor* SpawnPoint2;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Spawn")
+	AActor* SpawnPoint3;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, category = "Camera")
 	USpringArmComponent* SpringArmComp;
 

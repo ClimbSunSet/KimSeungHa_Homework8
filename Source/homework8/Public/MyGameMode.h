@@ -46,6 +46,8 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void WaveStart();
+
+	UFUNCTION(BlueprintCallable)
 	void WaveEnd();
 
 	UFUNCTION(BlueprintCallable)
